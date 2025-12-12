@@ -44,45 +44,44 @@ ALL Engines	5-10	~150MB	Muy lento
 
 
 # examples/dorks.txt
-
 # Guardar como dorks.txt para usar en modo masivo
 
-# Dorks de administración
+- Dorks de administración
 site:example.com intitle:"admin"
 inurl:admin/login.php
 "admin panel" site:com
 
-# Dorks de archivos
+ - Dorks de archivos
 filetype:sql intext:"password"
 filetype:pdf "confidential"
 "index of" "/backup"
 
-# Dorks de login
+- Dorks de login
 "login" "password" site:edu
 inurl:login.aspx
 "sign in" "forgot password"
 
-# Dorks de directorios
+- Dorks de directorios
 intitle:"index of" "/wp-content"
 "parent directory" "mp3"
 inurl:/backup/ site:org
 
-# Dorks de configuraciones
+- Dorks de configuraciones
 "database password" filetype:env
 "api_key" "password" filetype:txt
 "config" "password" site:github.com
 
-# Dorks de dispositivos
+- Dorks de dispositivos
 intitle:"webcam 7" "anybody there?"
 inurl:"/view/view.shtml"
 "axis" "camera" "login"
 
-# Dorks de documentos
+- Dorks de documentos
 filetype:doc "confidential"
 filetype:xls "username" "password"
 "private" filetype:pdf
 
-# Dorks de WordPress
+- Dorks de WordPress
 inurl:/wp-admin/admin-ajax.php
 "wordpress" "wp-content" "admin"
 "wp-login.php" "action=lostpassword"
