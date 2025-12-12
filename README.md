@@ -38,9 +38,10 @@ python searcher.py
 
 📊 Rendimiento
 Modo	Dorks/minuto	Memoria	Notas
-Simple	10-20	~50MB	Ideal para pruebas
-Masivo	100-500	~100MB	Usar batches
-ALL Engines	5-10	~150MB	Muy lento            
+
+-Simple	10-20	~50MB	Ideal para pruebas
+-Masivo	100-500	~100MB	Usar batches
+-ALL Engines	5-10	~150MB	Muy lento            
 
 
 # examples/dorks.txt
