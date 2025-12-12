@@ -17,7 +17,7 @@ import platform
 def setup_environment():
     """Configura todo automáticamente: venv, dependencias, etc."""
     print("╔" + "═" * 78 + "╗")
-    print("║" + " " * 32 + "DORKS EYE AUTO-SETUP" + " " * 27 + "║")
+    print("║" + " " * 32 + "SEARCHER AUTO-SETUP" + " " * 27 + "║")
     print("╚" + "═" * 78 + "╝\n")
     
     # Verificar Python
@@ -161,7 +161,7 @@ def setup_environment():
     
     print("\n[7/7] ✅ Setup completed successfully!")
     print("\n" + "=" * 80)
-    print("[+] Everything is ready to run Dorks Eye!")
+    print("[+] Everything is ready to run Searcher!")
     print("[+] Starting main application...")
     print("=" * 80 + "\n")
     
@@ -173,7 +173,7 @@ def setup_environment():
 if __name__ == "__main__":
     # Preguntar si ejecutar auto-setup
     print("\n" + "▄" * 80)
-    print("█" + " " * 30 + "DORKS EYE v2.1" + " " * 33 + "█")
+    print("█" + " " * 30 + "Searcher v2.1" + " " * 33 + "█")
     print("▀" * 80 + "\n")
     
     print("[?] Do you want to run automatic setup? (creates venv, installs dependencies)")
