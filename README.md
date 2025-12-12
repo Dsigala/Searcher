@@ -1,3 +1,6 @@
+<img width="1053" height="713" alt="image" src="https://github.com/user-attachments/assets/89b99aa9-d1fa-4a68-bfe0-996361974c8b" />
+
+
 # 🔍 Searcher - Auto-Setup v2.1
 
 **Herramienta avanzada de búsqueda con dorks para múltiples motores de búsqueda**
