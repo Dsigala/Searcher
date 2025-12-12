@@ -18,6 +18,7 @@
 
 # Clonar repositorio
 git clone https://github.com/Dsigala/Searcher.git
+
 cd Searcher
 
 # Crear entorno virtual
