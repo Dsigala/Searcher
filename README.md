@@ -15,7 +15,22 @@
 ## 📦 Instalación Rápida
 
 ### Método 1: Auto-Setup (Recomendado)
-```bash
+
+# Clonar repositorio
 git clone https://github.com/Dsigala/Searcher.git
 cd Searcher
-python3 searcher.py
+
+# Crear entorno virtual
+python3 -m venv venv
+
+# Activar entorno (Linux/Mac)
+source venv/bin/activate
+
+# Activar entorno (Windows)
+venv\Scripts\activate
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar
+python searcher.py
