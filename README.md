@@ -46,9 +46,13 @@ ALL Engines	5-10	~150MB	Muy lento
 # examples/dorks.txt
 
 site:example.com intitle:"admin"
+
 inurl:admin/login.php
+
 "admin panel" site:com
+
 filetype:sql intext:"password"
+
 filetype:pdf "confidential"
 "index of" "/backup"
 "login" "password" site:edu
