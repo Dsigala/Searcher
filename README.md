@@ -1,0 +1,21 @@
+# 🔍 Searcher - Auto-Setup v2.1
+
+**Herramienta avanzada de búsqueda con dorks para múltiples motores de búsqueda**
+
+## 🚀 Características
+
+- ✅ **Auto-Setup completo**: Crea entorno virtual e instala dependencias automáticamente
+- 🔍 **Múltiples motores de búsqueda**: DuckDuckGo, Bing, Google, Brave, Yandex
+- 📁 **Modo masivo**: Procesa miles de dorks desde archivos
+- 🎨 **Interfaz colorida**: Salida organizada y fácil de leer
+- 💾 **Guardado automático**: Exporta resultados a archivos .txt
+- ⚡ **Caché inteligente**: Evita búsquedas duplicadas
+- 🛡️ **Manejo de errores**: Recuperación automática de fallos
+
+## 📦 Instalación Rápida
+
+### Método 1: Auto-Setup (Recomendado)
+```bash
+git clone https://github.com/Dsigala/Searcher.git
+cd Searcher
+python3 searcher.py

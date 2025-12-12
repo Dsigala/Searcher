@@ -1,0 +1,8 @@
+duckduckgo-search
+googlesearch-python
+requests
+beautifulsoup4
+ddgs
+requests
+lxml
+colorama
