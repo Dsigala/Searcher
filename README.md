@@ -100,10 +100,11 @@ inurl:/wp-admin/admin-ajax.php
 
 
 
-⚠️ Aviso Legal
+
+# ⚠️ Aviso Legal
 Esta herramienta es para fines educativos y de prueba de seguridad autorizada únicamente. El autor no se hace responsable del uso indebido.
 
-✨ Créditos
+# ✨ Créditos
 Autor: CR4CK3N
 Mantenedor: Dsigala
 Versión: 2.1 Auto-Setup
