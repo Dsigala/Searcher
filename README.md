@@ -54,25 +54,45 @@ inurl:admin/login.php
 filetype:sql intext:"password"
 
 filetype:pdf "confidential"
+
 "index of" "/backup"
+
 "login" "password" site:edu
+
 inurl:login.aspx
+
 "sign in" "forgot password"
+
 intitle:"index of" "/wp-content"
+
 "parent directory" "mp3"
+
 inurl:/backup/ site:org
+
 "database password" filetype:env
+
 "api_key" "password" filetype:txt
+
 "config" "password" site:github.com
+
 intitle:"webcam 7" "anybody there?"
+
 inurl:"/view/view.shtml"
+
 "axis" "camera" "login"
+
 filetype:doc "confidential"
+
 filetype:xls "username" "password"
+
 "private" filetype:pdf
+
 inurl:/wp-admin/admin-ajax.php
+
 "wordpress" "wp-content" "admin"
+
 "wp-login.php" "action=lostpassword"
+
 
 
 
