@@ -34,3 +34,68 @@ pip install -r requirements.txt
 
 # Ejecutar
 python searcher.py
+
+📊 Rendimiento
+Modo	Dorks/minuto	Memoria	Notas
+Simple	10-20	~50MB	Ideal para pruebas
+Masivo	100-500	~100MB	Usar batches
+ALL Engines	5-10	~150MB	Muy lento            
+
+
+# examples/dorks.txt
+
+# Guardar como dorks.txt para usar en modo masivo
+
+# Dorks de administración
+site:example.com intitle:"admin"
+inurl:admin/login.php
+"admin panel" site:com
+
+# Dorks de archivos
+filetype:sql intext:"password"
+filetype:pdf "confidential"
+"index of" "/backup"
+
+# Dorks de login
+"login" "password" site:edu
+inurl:login.aspx
+"sign in" "forgot password"
+
+# Dorks de directorios
+intitle:"index of" "/wp-content"
+"parent directory" "mp3"
+inurl:/backup/ site:org
+
+# Dorks de configuraciones
+"database password" filetype:env
+"api_key" "password" filetype:txt
+"config" "password" site:github.com
+
+# Dorks de dispositivos
+intitle:"webcam 7" "anybody there?"
+inurl:"/view/view.shtml"
+"axis" "camera" "login"
+
+# Dorks de documentos
+filetype:doc "confidential"
+filetype:xls "username" "password"
+"private" filetype:pdf
+
+# Dorks de WordPress
+inurl:/wp-admin/admin-ajax.php
+"wordpress" "wp-content" "admin"
+"wp-login.php" "action=lostpassword"
+
+
+
+
+⚠️ Aviso Legal
+Esta herramienta es para fines educativos y de prueba de seguridad autorizada únicamente. El autor no se hace responsable del uso indebido.
+
+✨ Créditos
+Autor: CR4CK3N
+Mantenedor: Dsigala
+Versión: 2.1 Auto-Setup
+
+
+⭐ Si te gusta este proyecto, dale una estrella en GitHub!
