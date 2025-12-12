@@ -110,4 +110,4 @@ Mantenedor: Dsigala
 Versión: 2.1 Auto-Setup
 
 
-⭐ Si te gusta este proyecto, dale una estrella en GitHub!
+# ⭐ Si te gusta este proyecto, dale una estrella en GitHub!
